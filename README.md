@@ -3,13 +3,6 @@
 
 
 
-- 🔭 I’m currently working on this page. 
-
-
-
-
-
-
 
 - 🔭 I’m currently working on **Modern Portfolio Website**
 
