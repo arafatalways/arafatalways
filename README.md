@@ -1,7 +1,6 @@
 ### Hi there 👋, I'm Yeasin Arafat
 #### Web Developer
-![Web Developer](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
-
+![Web Developer]![](https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/575171352_1393117239112081_5035686448944046963_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFPz46xOkME-2jB8VVPTQ95w8bsoBk_AlXDxuygGT8CVXfPtSPyS_CciCoKw6jEKADk-nXcZVcEOTlLvvs5nz1A&_nc_ohc=sZIZs8y--jYQ7kNvwGIbkmD&_nc_oc=AdkF_1MIhvaexPMNO8IqNiAy2r5tL5JLkgJFawCqsRzL55S7JUw7MaT5dTRehtA5p-s&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=KRa22JxsUVo-2k0vcJbQtQ&oh=00_AfiG08AQkKdfYSJvQeVVDA9wqrgPAl1f-IcCCqMJBnE_cQ&oe=690FA64E)
 I am a passionate Front-End Developer with a strong foundation in modern web technologies. I enjoy turning ideas into interactive, user-friendly, and visually appealing web applications.
 
 My journey started with building simple static websites using HTML, CSS, and JavaScript, and over time I expanded my skills to React, Tailwind CSS, and Bootstrap to create dynamic, responsive, and modern user interfaces.
