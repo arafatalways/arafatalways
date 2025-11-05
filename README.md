@@ -6,6 +6,13 @@
 </p>
 
 
+## 🧠 About Me
+
+<div align="justify">
+I am a passionate Front-End Developer with a strong foundation in modern web technologies. I enjoy turning ideas into interactive, user-friendly, and visually appealing web applications.
+
+My journey started with building simple static websites using HTML, CSS, and JavaScript, and over time I expanded my skills to React, Tailwind CSS, and Bootstrap to create dynamic, responsive, and modern user interfaces.
+</div>
 
 - 🔭 I’m currently working on **Modern Portfolio Website**
 
