@@ -5,6 +5,175 @@
  <img src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/574466426_1393396925750779_974255703922522563_n.jpg?stp=dst-jpg_s1080x2048_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG1idCUext7m5UD3P7R_7kVwiKsEClQDDDCIqwQKVAMMESc5W_6XrwIk4DE93hxTCb_-cnbKnTZTVihvBYdB5EL&_nc_ohc=yoZIV1DuWJ0Q7kNvwHNqrny&_nc_oc=AdmMAPDCUB-HuYmMjeMba7SIHsxnH7hbbnm7tORDlEI6W7STRr0L2qvPtW7NrUz4Mk8&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=iUhQxwL6uUAn_Cc1i9qigQ&oh=00_AfjLCG5___sC2j8BJl5TNjgkn7gmctgPo5Knj4yGKbFxcw&oe=69106559" alt="My Banner" width="1000" height="350">
 </p>
 
+<!-- Save this file as banner.html and open in a browser (works offline, but icons load from CDN) -->
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GitHub Banner (1000x350)</title>
+<style>
+  /* Canvas size exactly 1000x350 for GitHub README banner */
+  :root { --w:1000px; --h:350px; --gap:12px; }
+  html,body{height:100%; margin:0; background:#111; display:flex; align-items:center; justify-content:center;}
+  .banner{
+    width:var(--w);
+    height:var(--h);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
+    display:flex;
+    background: linear-gradient(135deg, #0f1220 0%, #0b0c10 100%);
+    align-items:center;
+    padding:28px;
+    gap:24px;
+    box-sizing:border-box;
+  }
+
+  /* Left: profile image */
+  .left{
+    flex: 0 0 300px;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  .avatar{
+    width:260px; height:260px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow: 0 8px 30px rgba(2,6,23,0.7);
+    border: 1px solid rgba(255,255,255,0.04);
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.35));
+  }
+  .avatar img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    filter: saturate(0.98) contrast(1.02);
+  }
+  /* subtle glow behind avatar */
+  .avatar::before{
+    content:"";
+    position:absolute;
+    left:14px; top:50%;
+    width:160px; height:160px;
+    transform:translateY(-50%);
+    background: radial-gradient(closest-side, rgba(59,130,246,0.06), transparent 50%);
+    pointer-events:none;
+    filter: blur(28px);
+  }
+
+  /* Right: icons grid */
+  .right{
+    flex:1;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:18px;
+    padding-right:12px;
+    box-sizing:border-box;
+  }
+
+  .icons-row{
+    display:flex;
+    gap:14px;
+    align-items:center;
+    justify-content:flex-end;
+  }
+
+  /* Icon box */
+  .skill{
+    width:72px; height:72px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.25));
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 18px rgba(2,6,23,0.6);
+    padding:8px;
+  }
+  .skill img{
+    width:100%; height:100%;
+    object-fit:contain;
+    filter: drop-shadow(0 3px 8px rgba(2,6,23,0.6));
+  }
+
+  /* layout: two rows of icons arranged to look balanced */
+  .row-top { justify-content: flex-end; }
+  .row-bottom { justify-content: flex-end; }
+
+  /* responsive fallback if needed */
+  @media (max-width:1050px){
+    .banner{transform:scale(0.95); transform-origin:center;}
+  }
+  @media (max-width:820px){
+    .banner{flex-direction:column; width:900px; height:420px; padding:22px;}
+    .left{flex:0 0 auto;}
+    .right{padding:0; gap:12px;}
+  }
+</style>
+</head>
+<body>
+  <div class="banner" role="img" aria-label="GitHub banner">
+    <div class="left">
+      <div class="avatar">
+        <!-- Replace the src with your direct image link if needed -->
+        <img alt="Profile" src="https://i.ibb.co/YT7k1dH/placeholder.jpg" id="profileImage">
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="icons-row row-top">
+        <!-- Top row (4 icons) -->
+        <div class="skill"><img alt="HTML5" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/html5.svg"></div>
+        <div class="skill"><img alt="CSS3" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/css3.svg"></div>
+        <div class="skill"><img alt="JavaScript" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/javascript.svg"></div>
+        <div class="skill"><img alt="React" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/react.svg"></div>
+      </div>
+
+      <div class="icons-row row-bottom">
+        <!-- Bottom row (5 icons) -->
+        <div class="skill"><img alt="Tailwind" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/tailwindcss.svg"></div>
+        <div class="skill"><img alt="Bootstrap" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/bootstrap.svg"></div>
+        <div class="skill"><img alt="Git" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/git.svg"></div>
+        <div class="skill"><img alt="GitHub" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg"></div>
+        <div class="skill"><img alt="VSCode" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/visualstudiocode.svg"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+/* === Replace profile image src with the user's provided direct link ===
+   Your provided link: https://ibb.co.com/gLWdCLVW
+   Note: imgbb "display" link often needs to be converted to direct image URL.
+   If that link doesn't show the image, replace below URL with a direct image link (ending .jpg/.png).
+*/
+const userImg = "https://i.ibb.co/YT7k1dH/placeholder.jpg"; // fallback placeholder
+// Try to set to the imgbb host direct link if possible:
+const provided = "https://i.ibb.co/gLWdCLVW"; // user link (may not be direct image)
+const imgEl = document.getElementById('profileImage');
+
+// Heuristic: if provided looks like a direct image (ends with jpg/png) use it, else keep placeholder
+if (/\.(jpe?g|png|webp|gif|svg)$/i.test(provided)) {
+  imgEl.src = provided;
+} else {
+  // convert some common imgbb patterns to direct raw link automatically:
+  // if the user used i.ibb.co short link, try treat as direct
+  if (provided.includes("i.ibb.co/")) {
+    imgEl.src = provided;
+  } else {
+    // Try common imgbb raw path (this may or may not work depending on how user uploaded)
+    // If you have the direct image link (ending with .jpg/.png), replace the src manually.
+    imgEl.src = provided; // attempt anyway
+  }
+}
+</script>
+</body>
+</html>
+
+
 
 ## 🧠 About Me
 
