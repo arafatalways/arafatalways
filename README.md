@@ -36,6 +36,15 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=arafatalways&theme=transparent&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=arafatalways&theme=transparent&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
+<div align="center">
+  <!-- Change username=ab-azim if needed -->
+<a href="https://github.com/ab-azim" target="_blank" rel="noopener noreferrer">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ab-azim&theme=react-dark" 
+       alt="Contribution graph for ab-azim" style="max-width:100%;height:auto;">
+</a>
+  <p><strong>Contribution activity:</strong> Visual summary of my recent coding — commits, PRs and other contributions over time. (Auto-updated)</p>
+</div>
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=arafatalways&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
