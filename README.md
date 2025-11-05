@@ -1,7 +1,9 @@
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/79bfac42-3540-4cf5-b809-8e28f43621ac" alt="My Banner" width="1000">
+</p>
 <h1 align="center">Hi 👋, I'm Yeasin Arafat</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
-
-
 
 
 - 🔭 I’m currently working on **Modern Portfolio Website**
