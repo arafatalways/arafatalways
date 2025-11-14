@@ -2,7 +2,7 @@
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
 
 <p align="center">
- <img src="https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/579176532_1397280335362438_4257195712710795808_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGAEi9-oFp7_LC5-VwZgtcRIjlGGgZ05AwiOUYaBnTkDG1Gav0AqAqwXGzLCPc6tEYBqhjVgWg48HzeRBR14FBr&_nc_ohc=MX5tGhpCUd8Q7kNvwEpcTm6&_nc_oc=Adl4mEu8U1GRn8Yz6C9MQbJdWrjOq-NW4qpGC8EMNKGviuqUYTFJg7Szl0KRDSqKVHs&_nc_zt=23&_nc_ht=scontent.fdac99-1.fna&_nc_gid=jdL95cEXAfFhtjMfZmtgOQ&oh=00_AfiWHk1kAaS6GndpwUSNwxfOUBpWY9n2KV6DLFjK0x6PSA&oe=691CEAAB" alt="My Banner" width="1280" height="320">
+ <img src="https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/579176532_1397280335362438_4257195712710795808_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGAEi9-oFp7_LC5-VwZgtcRIjlGGgZ05AwiOUYaBnTkDG1Gav0AqAqwXGzLCPc6tEYBqhjVgWg48HzeRBR14FBr&_nc_ohc=MX5tGhpCUd8Q7kNvwEpcTm6&_nc_oc=Adl4mEu8U1GRn8Yz6C9MQbJdWrjOq-NW4qpGC8EMNKGviuqUYTFJg7Szl0KRDSqKVHs&_nc_zt=23&_nc_ht=scontent.fdac99-1.fna&_nc_gid=jdL95cEXAfFhtjMfZmtgOQ&oh=00_AfiWHk1kAaS6GndpwUSNwxfOUBpWY9n2KV6DLFjK0x6PSA&oe=691CEAAB" alt="My Banner" width="1280" height="400">
 </p>
 
 <!-- Save this file as banner.html and open in a browser (works offline, but icons load from CDN) -->
