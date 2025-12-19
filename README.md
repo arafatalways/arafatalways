@@ -52,10 +52,6 @@ My journey started with building simple static websites using HTML, CSS, and Jav
 
 <div align="center">
   <!-- Change username=ab-azim if needed -->
-<a href="https://github.com/ab-azim" target="_blank" rel="noopener noreferrer">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ab-azim&theme=react-dark" 
-       alt="Contribution graph for ab-azim" style="max-width:100%;height:auto;">
-</a>
   <p><strong>Contribution activity:</strong> Visual summary of my recent coding — commits, PRs and other contributions over time. (Auto-updated)</p>
 </div>
 
