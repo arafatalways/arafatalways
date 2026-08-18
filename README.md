@@ -1,6 +1,6 @@
 ### Hi there 👋, Hi there I'm Yeasin Arafat
 #### A passionate frontend developer from Bangladesh
-![A passionate frontend developer from Bangladesh](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+![A passionate frontend developer from Bangladesh]([https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png](https://media.licdn.com/dms/image/v2/D5616AQF1D1ytLB4YpQ/profile-displaybackgroundimage-shrink_350_1400/B56aASsN9zGsAU-/0/1787019976851?e=1788393600&v=beta&t=JoArQsbutP_ZhNZRvFofGlSTzWrW1ZaNZsaKt8rIFGM))
 
 I am a results-driven Front-End & WordPress Developer with a strong focus on building responsive, pixel-perfect, and user-friendly web applications. I bridge the gap between design and functionality by creating seamless digital experiences.
 
